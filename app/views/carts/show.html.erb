@@ -48,9 +48,9 @@
           </script>
         <% end %>
       <% else %>
-        <h2>
-        Looks like your cart is emtpy! Why not go look at some of our amazing <%= link_to 'products', :root %>!
-        </h2>
+        <div class="alert alert-info" role="alert">
+          Looks like your cart is emtpy! Why not go look at some of our amazing <%= link_to 'products!', :root, :class => "alert-link"%>
+        </div>
         
       <% end %>
     </div>
