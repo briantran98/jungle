@@ -10,7 +10,7 @@
 	<tbody>
 		<tr>
 	  	<td>
-	  	  <p>Products</p>
+				<p><%= link_to 'Products',  [:admin, :products]%></p>
 			</td>
 			<td>
 				<%= @product_count %>
@@ -18,7 +18,7 @@
 		</tr>
 		<tr>
 			<td>
-				<p>Category</p>
+			<p><%= link_to 'Category',  [:admin, :products]%></p>
 			</td>
 			<td>
 			 <%= @category_count %>
