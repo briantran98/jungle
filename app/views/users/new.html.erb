@@ -4,11 +4,14 @@
 	<label for="name">Name:</label><br>
 	<%= f.text_field :name %>
 	<br>
-	Email: <%= f.text_field :email %>
+	<label for="email">Email:</label><br>
+	<%= f.text_field :email %>
 	<br>
-	Password: <%= f.password_field :password %>
+	<label for="password">Password:</label><br>
+	<%= f.password_field :password %>
 	<br>
-	Password Confirmation: <%= f.password_field :password_confirmation %>
+	<label for="password_confirmation">Password Confirmation:</label><br>
+	<%= f.password_field :password_confirmation %>
 	<br>
   <%= f.submit "Submit" %>
 
