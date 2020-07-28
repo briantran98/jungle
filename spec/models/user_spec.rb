@@ -114,5 +114,5 @@ RSpec.describe User, type: :model do
       @user.save
       expect(User.authenticate_with_credentials("TEST@test.com", "acdd")).to be_instance_of (User)
     end
-  end
+  end 
 end
