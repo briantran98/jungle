@@ -20,6 +20,11 @@ class ApplicationController < ActionController::Base
   end
   helper_method :cart_subtotal_cents
 
+  def is_sold_out?
+    yield === 0
+  end
+  helper_method :is_sold_out?
+
 
   def update_cart(new_cart)
     cookies[:cart] = {

@@ -20,7 +20,7 @@
   <aside class="price">
     <%= humanized_money_with_symbol product.price %>
   </aside>
-  <% if product[:quantity] === 0%>
+  <% is_sold_out? { product[:quantity] } %>
     <aside class="sold-out">
       <span>SOLD OUT!</span>
     </aside>
