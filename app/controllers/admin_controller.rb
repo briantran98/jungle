@@ -1,4 +1,3 @@
 class AdminController < ApplicationController
-  def categories
-  end
+  http_basic_authenticate_with name: ENV['ADMIN_USER'], password: ENV['ADMIN_PASS']
 end
