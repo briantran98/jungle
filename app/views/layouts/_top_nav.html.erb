@@ -30,7 +30,8 @@
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-      <% if current_user %>
+      <% puts current_user.is_a?(User) %>
+      <% if current_user.is_a?(User) %>
         <li>
           <a>Signed in as <%= "#{current_user.first_name}" %></a>
         </li>
