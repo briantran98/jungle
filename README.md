@@ -2,18 +2,16 @@
 
 > Ligthouselabs project for ruby on rails as an online shopping platform
 
-[![Dependency Status](http://img.shields.io/gemnasium/briantran98/jungle.svg?style=flat-square)](https://gemnasium.com/briantran98/jungle)
-[![Code Climate](http://img.shields.io/codeclimate/github/briantran98/jungle.svg?style=flat-square)](https://codeclimate.com/github/briantran98/jungle)
 
 **Screen Grabs**
 
-![User Interaction](http://g.recordit.co/iLN6A0vSD8.gif)
+![User Interaction](https://raw.githubusercontent.com/briantran98/jungle/master/docs/gif/user-interaction.gif)
 
 
-![User Interaction](http://g.recordit.co/iLN6A0vSD8.gif)
+![Admin All Products Page](https://raw.githubusercontent.com/briantran98/jungle/master/docs/Screenshots/Admin_all_products.png)
 
 
-![User Interaction](http://g.recordit.co/iLN6A0vSD8.gif)
+![Sign Up Page](https://raw.githubusercontent.com/briantran98/jungle/master/docs/Screenshots/Signup.png)
 
 
 ---
@@ -41,13 +39,6 @@ $ bin/rake db:reset
 ```shell
 bin/rails s -b 0.0.0.0
 ```
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
 
 ---
 
